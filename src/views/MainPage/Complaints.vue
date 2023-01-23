@@ -367,7 +367,7 @@ const forms = ref({
   signing_date: new Date(),
 });
 const headers = ref([
-  { title: "№", value: "index" },
+  { title: "t", value: "index" },
   { title: t("ComplaintNumber"), value: "number" },
   { title: t("Applicant'sName"), value: "applicant_full_name" },
   { title: t("FaceShape(legal/physical)"), value: "form" },
